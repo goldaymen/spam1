@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
+var prefix = "2";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
@@ -10,7 +10,7 @@ client.on('ready', async() => {
 var server = "512945089799258142"; // ايدي السررفر
 var channel = "512945137354276876";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
+    client.guilds.get(server).channels.get(channel).send('**gg , Dream , Dhkham , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
     },305);
 })
 
