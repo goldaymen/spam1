@@ -1,17 +1,17 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "2";
+var prefix = "!";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
 });
 
 client.on('ready', async() => {
-var server = "512945089799258142"; // ايدي السررفر
-var channel = "513264460765331460";//ايدي الروم
+var server = "584181156300455966"; // ايدي السررفر
+var channel = "584181156300455969";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**ah , Dream , Dhkham , Dream , Dream , aymen , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
-    },900000000000000000000000000000000000000000000000000000000000000000000000000000000);
+    client.guilds.get(server).channels.get(channel).send('**HI , Dream , Dhkham , Dream , Dream , aymen , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
+    },90000000000000000000000000000000000000000000000000000);
 })
 
 client.on('message', message => {
